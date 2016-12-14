@@ -1,0 +1,6 @@
+framework module Pods_RxTableTestUITests {
+  umbrella header "Pods-RxTableTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
