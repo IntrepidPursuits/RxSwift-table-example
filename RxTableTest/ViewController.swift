@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 import RxDataSources
 import Intrepid
 
@@ -80,7 +81,7 @@ class ViewController: UIViewController {
     func configureTableView() {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
 
-        let dataSource: RxTableViewSectionedAnimatedDataSource<MySection> = RxTableViewSectionedAnimatedDataSource<MySection>()
+        let dataSource = RxTableViewSectionedAnimatedDataSource<MySection>()
 
 //        let label = UILabel()
 //        label.rx.text.asObserver()

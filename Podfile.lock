@@ -17,8 +17,9 @@ PODS:
 DEPENDENCIES:
   - Intrepid
   - Intrepid/Rx
+  - RxCocoa (~> 3.0)
   - RxDataSources (~> 1.0)
-  - RxSwift
+  - RxSwift (~> 3.0)
 
 SPEC CHECKSUMS:
   Intrepid: 806c582fedbe9fb051d2c500080f9adce1ed8628
@@ -27,6 +28,6 @@ SPEC CHECKSUMS:
   RxDataSources: 824693e84d00781d0a5e5cedc1ff95ce9250aacd
   RxSwift: af5680055c4ad04480189c52d28385b1029493a6
 
-PODFILE CHECKSUM: 0f28cbada0714507a26588c90cb4532d5572c90f
+PODFILE CHECKSUM: 950231d2a49c139a281d60cd7b5609159cecb881
 
 COCOAPODS: 1.1.1

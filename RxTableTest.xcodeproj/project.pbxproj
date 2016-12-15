@@ -630,7 +630,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5946CC6A44BD5B0A944477A3 /* Pods-RxTableTestTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = THP5EV5EJ9;
 				INFOPLIST_FILE = RxTableTestTests/Info.plist;
@@ -646,7 +645,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7F9884600BD47F22D549EDD /* Pods-RxTableTestTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = THP5EV5EJ9;
 				INFOPLIST_FILE = RxTableTestTests/Info.plist;
@@ -662,7 +660,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25F94AA2933FC24D813CBB57 /* Pods-RxTableTestUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = THP5EV5EJ9;
 				INFOPLIST_FILE = RxTableTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -677,7 +674,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1803A508C573C059BBF4F58E /* Pods-RxTableTestUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = THP5EV5EJ9;
 				INFOPLIST_FILE = RxTableTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -707,6 +703,7 @@
 				AFE9CDE41E020179005394D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFE9CDE51E020179005394D8 /* Build configuration list for PBXNativeTarget "RxTableTestTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +712,7 @@
 				AFE9CDE71E020179005394D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFE9CDE81E020179005394D8 /* Build configuration list for PBXNativeTarget "RxTableTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +721,7 @@
 				AFE9CDEA1E020179005394D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
