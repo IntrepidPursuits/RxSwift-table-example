@@ -1,11 +1,11 @@
 PODS:
-  - Intrepid (0.6.4):
-    - Intrepid/Core (= 0.6.4)
-  - Intrepid/Core (0.6.4):
+  - Intrepid (0.6.5):
+    - Intrepid/Core (= 0.6.5)
+  - Intrepid/Core (0.6.5):
     - IP-UIKit-Wisdom (= 0.0.9)
-  - Intrepid/Rx (0.6.4):
-    - RxCocoa (~> 3.0.0-beta.2)
-    - RxSwift (~> 3.0.0-beta.2)
+  - Intrepid/Rx (0.6.5):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
   - IP-UIKit-Wisdom (0.0.9)
   - RxCocoa (3.0.1):
     - RxSwift (~> 3.0)
@@ -21,7 +21,7 @@ DEPENDENCIES:
   - RxSwift
 
 SPEC CHECKSUMS:
-  Intrepid: 87cd768917693db289083595e5be4057936eed5e
+  Intrepid: 806c582fedbe9fb051d2c500080f9adce1ed8628
   IP-UIKit-Wisdom: cd9838571e97427a0c61c05d856eaaca9afd7c1a
   RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
   RxDataSources: 824693e84d00781d0a5e5cedc1ff95ce9250aacd
